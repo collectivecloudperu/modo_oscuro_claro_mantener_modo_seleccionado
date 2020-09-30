@@ -1,6 +1,6 @@
-<center>
+
 ![Image of Yaktocat](https://github.com/collectivecloudperu/modo_oscuro_claro_mantener_modo_seleccionado/blob/master/hf2020.jpg)
-</center>
+
 
 # Como crear el Efecto modo Oscuro – Claro en un Sitio Web (Mantener el modo seleccionado en las demás Páginas) 
 
