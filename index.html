@@ -13,12 +13,10 @@
   
   <title>Como crear el Efecto modo Oscuro – Claro en un Sitio Web (Mantener el modo seleccionado en las demás Páginas)</title>
 
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+  <link rel="stylesheet" type="text/css" href="https://nubecolectiva.com/blog/tutos/demos/enc.css">    
   <link rel="stylesheet" type="text/css" href="css/estilos.css">
-
-  
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="https://nubecolectiva.com/blog/tutos/demos/enc.css">    
 
   </head>
 
@@ -69,9 +67,13 @@
 
             <div class="col-md-10 mt-5">
 
-              <p class="text-center">"Presiona el botón <strong>Claro / Oscuro</strong> para cambiar a modo Oscuro o Claro"</p>
+              <p class="text-center">"Cambia el estado <strong>Claro / Oscuro</strong> para cambiar a modo Oscuro o Claro"</p>
 
-              <button type="button" class="btn btn-dark mb-3" onclick="cambiarModo();">Claro / Oscuro</button> 
+              <div class="custom-control custom-switch mb-3">
+                <input type="checkbox" class="custom-control-input"onclick="cambiarModo();" id="switchModo" checked="">
+                <label class="custom-control-label" for="switchModo">Claro / Oscuro</label>
+              </div>
+
               <button type="button" class="btn btn-secondary mb-3" onclick="resetear();">Resetear</button> 
 
 
